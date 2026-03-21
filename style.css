@@ -108,12 +108,12 @@ body{
     position: relative;
     left:122px;
 }
-h1{
+/* h1{
     width:65%;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ;
-}
-.upper h1 {
+} */
+ .upper h1 {
     color: white;
     font-size: 3rem;
     text-align: center;
@@ -123,7 +123,7 @@ h1{
     font-size:bold;
 
 
-}
+} 
 /* select{
     height:60px;
     width:20%;

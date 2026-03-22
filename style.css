@@ -95,7 +95,7 @@ body{
 
 .s2img{
     height: 15vh;
-    width:30%;
+    width:40%;
     position: relative;
     right: 0;
 }
@@ -146,10 +146,14 @@ body{
 }
 .lower{
     height:70vh;
-    width: 100%;
+    width: 60%;
     display: flex;
     gap:4%;
     /* justify-content: space-betw; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: relative;
+    left:8%;
 
 }
 .lower .imgd1,.imgd2,.imgd3{

@@ -1,0 +1,84 @@
+  @font-face {
+      font-family:'Gilroy-Bold ☞';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Gilroy-Bold ☞'), url('Gilroy-Bold.woff') format('woff');
+  }
+
+  * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Gilroy-Bold ☞';
+
+  }
+
+
+  .navbar {
+
+      padding: 10px 10%;
+      display: flex;
+      justify-content: space-between;
+      box-shadow: 3px 4px 2px rgb(216, 215, 215);
+      align-items: center;
+
+
+  }
+
+  .right_nav {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      /* justify-content: center; */
+  }
+
+  .right_nav a {
+      text-decoration: none;
+      color: black;
+      font-family:'Gilroy-Bold ☞';
+  }
+
+  .left_nav {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+  }
+  .left_nav a{
+    color: black;
+  }
+
+  .right_nav svg path {
+      fill: black;
+      position: relative;
+      top: 5px;
+  }
+
+  .location i {
+      color: #FF5200;
+  }
+
+  .location span:hover {
+      color: #FF5200;
+      cursor: pointer;
+  }
+  .main{
+    display: flex;
+    padding:10px 10%;
+    flex-direction: column;
+    flex:1;
+
+    /* background-color:rgb(214, 212, 212); */
+  }
+  .food{
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    margin-bottom: 30px;
+    
+  }
+  .food::-webkit-scrollbar{
+    display:none;
+  }
+  .food img{
+    flex: 1;
+    max-width: 14%;
+  }
